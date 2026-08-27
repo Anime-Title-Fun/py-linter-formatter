@@ -14,4 +14,4 @@ def format_single_linter_file(file_path, errors):
         "status": "failed" if errors else "passed"
     }
 def format_linter_report(linter_report):
-    return [format_single_linter_file(path, errs) for path, errs in linter_report.items()]git add app/main.py
+    return [format_single_linter_file(path, errs) for path, errs in linter_report.items()]
